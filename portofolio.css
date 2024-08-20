@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin : 0%;
+  }
+  .header, .footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .container {
+    display: flex;
+  }
+
+
+  .sidebar{
+    padding: 15px;
+    text-align: center;
+    background-color:#f4f4f4;
+    width: 20%;
+  }
+  
+  .sidebar-box {
+    background-color: #0073e6;
+    border-radius: 5px;
+    margin: 0%;
+    
+}
+
+  .content {
+    background-color: white;
+    width: 80%;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Mengatur tampilan menjadi vertikal */
+  align-items: center; /* Mengatur agar konten berada di tengah secara horizontal */
+  text-align: center; /* Mengatur tulisan dan konten berada di tengah secara vertikal */
+  }
+  .footer {
+    font-size: 14px;
+  }
+
+  .txt-bold {
+    font-weight: bold;
+  }
+
+  .label {
+    background-color: #0073e6;
+    color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    
+  }
+
+  .label2 {
+    color:#f4f4f4;
+    text-decoration: none; 
+    font-weight: bold;
+    
+
+  }
+
+  .tanpatitik {
+    list-style-type: none;
+    font-size: bold;
+    padding: 5px;
+
+  }
+  
+  .list {
+    margin: 20px;
+   padding: 15px;
+   text-align: center;
+   border: 1px solid #FFFFFF;
+  }
+  .portfolio-item {
+    text-align: center;
+    width: 650px; /* Lebar item portofolio */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Mengatur tulisan dan gambar menjadi berada di tengah */
+  }
+  
+  .portfolio-item .portfolio-info {
+    background-color: #0073e6; /* Warna latar belakang biru */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px; /* Jarak antara tulisan dan gambar */
+  }
+  
+  .portfolio-item img {
+    width: 300px; /* Lebar gambar */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 0; /* Hapus margin atas */
+  }
+  
+  .portfolio-item p {
+    margin-top: 5px;
+  }

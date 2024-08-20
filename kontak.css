@@ -1,0 +1,124 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin : 0%;
+  }
+  .header, .footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+  }
+
+  .header{
+
+  }
+
+
+  .container {
+    display: flex;
+  }
+
+  .rightbar {
+    background-color: #f4f4f4;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+
+  }
+
+  .sidebar{
+    padding: 15px;
+    text-align: center;
+    background-color:#f4f4f4;
+    width: 20%;
+  }
+  
+  .sidebar-box {
+    background-color: #0073e6;
+    border-radius: 5px;
+    margin: 0%;
+    
+}
+
+  .Gambar {
+    width: 150px;
+    height: auto;
+    border-radius: 200000px;
+    padding: 15px;
+}
+  .content {
+    background-color: white;
+    width: 60%;
+    padding: 15px;
+    text-align: center;
+  justify-content: center; 
+  }
+  .footer {
+    font-size: 14px;
+  }
+
+  .txt-bold {
+    font-weight: bold;
+  }
+
+  .label {
+    background-color: #0073e6;
+    color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    
+  }
+
+  .label2 {
+    color:#f4f4f4;
+    text-decoration: none; 
+    font-weight: bold;
+    
+
+  }
+
+  .tanpatitik {
+    list-style-type: none;
+    font-size: bold;
+    padding: 5px;
+
+  }
+  
+  .list {
+    margin: 20px;
+   padding: 15px;
+   text-align: center;
+   border: 1px solid #FFFFFF;
+  }
+
+  .contact-item {
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #0073e6; /* Warna latar belakang biru */
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .contact-info h3 {
+    margin-top: 0; /* Hapus margin atas */
+  }
+  
+  .contact-info a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+  .kontak{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
